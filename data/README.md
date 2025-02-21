@@ -6,9 +6,9 @@ This folder should contain the dataset for **Histopathologic Cancer Detection**.
 Due to file size constraints, the dataset is **not included in this repo**. You must download it manually.
 
 ### Option 1: Download from Kaggle
-1. Go to [Kaggle Dataset Page](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data).
-2. Download `train.zip`, `test.zip`, and `train_labels.csv`.
-3. Extract them into the `data/` folder.
+1. Go to [Kaggle Dataset Page](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data)
+2. Download `train.zip`, `test.zip`, and `train_labels.csv`
+3. Extract them into the `data/` folder
 
 Expected structure:
 ```bash
@@ -30,7 +30,7 @@ Now the dataset is ready to use!
 
 # Models Directory
 
-This folder contains **trained model weights** in `.h5` format.
+This folder contains **trained model weights** in `.h5` format
 
 ## Available Models
 | Model File               | Description                         |
@@ -54,7 +54,7 @@ vit_model = load_model("models/vit_hybrid_model.h5")
 
 # Kaggle Submissions
 
-This folder contains **final submission CSVs** for the Kaggle competition.
+This folder contains **final submission CSVs** for the Kaggle competition
 
 ## Submission Files
 | File Name                 | Description                           |
@@ -64,6 +64,6 @@ This folder contains **final submission CSVs** for the Kaggle competition.
 | `submission_ensemble.csv` | Ensemble of EfficientNet & ViT-Hybrid |
 
 ## How to Submit on Kaggle
-1. Go to [Kaggle Submission Page](https://www.kaggle.com/competitions/histopathologic-cancer-detection/submissions).
-2. Upload the desired CSV file.
-3. Click **Submit** and wait for the results.
+1. Go to [Kaggle Submission Page](https://www.kaggle.com/competitions/histopathologic-cancer-detection/submissions)
+2. Upload the desired CSV file
+3. Click **Submit** and wait for the results
