@@ -59,7 +59,7 @@ Open **Jupyter Notebook**:
 ```sh
 jupyter lab
 ```
-Run **`notebooks/your_training_notebook.ipynb`** to train EfficientNetV2S or ViT-Hybrid.
+Run **`notebooks/histopathic_cancer_detection.ipynb`** to train EfficientNetV2S or ViT-Hybrid.
 
 ---
 
