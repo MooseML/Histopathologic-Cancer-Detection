@@ -11,7 +11,7 @@ histopathologic-cancer-detection/
 │── scripts/                   # Utility scripts (e.g., dataset download, model fetch)
 │── submissions/               # Kaggle CSV submissions
 │── requirements.txt           # Python dependencies
-│── README.md                  # Project documentation (this file)
+│── README.md                  # Project documentation 
 ```
 
 ## Getting Started
