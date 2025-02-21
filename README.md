@@ -45,7 +45,7 @@ This dataset is too large for GitHub. Download it from **Kaggle**:
 
 #### Option 1: Manually Download
 1. Go to [Kaggle](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data).
-2. Download **train.zip** and **test.zip**.
+2. Click **Download All**.
 3. Extract them into the `data/` directory.
 
 #### Option 2: Run the Kaggle API Script
