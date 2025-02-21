@@ -1,0 +1,25 @@
+{
+  "name": "Histopathologic Cancer Detection",
+  "image": "tensorflow/tensorflow:2.13.0-gpu",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.9"
+    }
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y libgl1-mesa-glx libglib2.0-0 && pip install -r requirements.txt && pip install jupyterlab tensorboard_plugin_profile kaggle zipfile36",
+  "postStartCommand": "jupyter lab --ip=0.0.0.0 --allow-root --no-browser",
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ],
+  "mounts": [
+    "source=${localWorkspaceFolder}/data,target=/workspace/data,type=bind",
+    "source=${localWorkspaceFolder}/logs,target=/workspace/logs,type=bind",
+    "source=${env.HOME}/.kaggle/kaggle.json,target=/root/.kaggle/kaggle.json,type=bind"
+  ],
+  "forwardPorts": [8888, 6006],
+  "remoteUser": "root"
+}
