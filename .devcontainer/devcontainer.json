@@ -15,11 +15,19 @@
     "ms-python.python",
     "ms-toolsai.jupyter"
   ],
+  
   "mounts": [
+    "source=c:\\Users\\mattg\\.kaggle\\kaggle.json,target=/root/.kaggle/kaggle.json,type=bind",
     "source=${localWorkspaceFolder}/data,target=/workspace/data,type=bind",
-    "source=${localWorkspaceFolder}/logs,target=/workspace/logs,type=bind",
-    "source=${env.HOME}/.kaggle/kaggle.json,target=/root/.kaggle/kaggle.json,type=bind"
+    "source=${localWorkspaceFolder}/logs,target=/workspace/logs,type=bind"
   ],
+
+  // "mounts": [
+  //   "source=/mnt/c/Users/mattg/.kaggle/kaggle.json,target=/root/.kaggle/kaggle.json,type=bind",
+  //   "source=${localWorkspaceFolder}/data,target=/workspace/data,type=bind",
+  //   "source=${localWorkspaceFolder}/logs,target=/workspace/logs,type=bind"
+  // ],
+
   "forwardPorts": [8888, 6006],
   "remoteUser": "root"
 }
