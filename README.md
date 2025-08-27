@@ -54,7 +54,7 @@ python scripts/download_data.py
 ```
 
 ### Download Pretrained Models
-If you do not want to adjust the models and train from scratch you can download the pretrained models. Since the trained models were too large for GutHub, they are stored on the Hugging Face Hub.  
+If you do not want to adjust the models and train from scratch you can download the pretrained models. Since the trained models were too large for GitHub, they are stored on the Hugging Face Hub.  
 
 Run this script to automatically fetch them:
 ```sh
