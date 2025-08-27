@@ -29,4 +29,4 @@ def download_kaggle_dataset():
 if not os.path.exists("/workspace/data/train/") or not os.path.exists("/workspace/data/test/"):
     download_kaggle_dataset()
 else:
-    print("ℹDataset already exists")
+    print("Dataset already exists")
