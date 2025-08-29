@@ -73,10 +73,11 @@ Run **`notebooks/histopathic_cancer_detection.ipynb`** to train EfficientNetV2S 
 ## Model Details
 | Model              | Private Score | Public Score |
 |-------------------|--------------|-------------|
-| EfficientNetV2S  | 0.9359        | 0.9374      |
-| ViT-Hybrid       | 0.9507        | 0.9487      |
-| ViT-Hybrid + TTA | 0.9576        | 0.9647      |
-| Weight Ensemble  | 0.9647        | 0.9680      |
+| EfficientNetV2S  | 0.9477        | 0.9384      |
+| ViT-Hybrid       | 0.9610        | 0.9565      |
+| ViT-Hybrid + TTA | 0.9680        | 0.9647      |
+| Weight Ensemble  | 0.9680        | 0.9633      |
+| Optuna Blend     | 0.9681        | 0.9643      |
 
 ---
 ### Resources
